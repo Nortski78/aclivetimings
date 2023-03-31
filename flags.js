@@ -9,5 +9,6 @@ const flags = {
 }
 
 export function getFlag(code) {
+    if(!flags[code]) return '';
     return flags[code];
 }

@@ -29,8 +29,9 @@ function renderSession(data) {
 
     let newRow = table.insertRow(-1);
     let posCell = newRow.insertCell(0);
-    let driverCell = newRow.insertCell(1);
-    let bestLapCell = newRow.insertCell(2);
+    let flagCell = newRow.insertCell(1);
+    let driverCell = newRow.insertCell(2);
+    let bestLapCell = newRow.insertCell(3);
     let posText = document.createTextNode("POS");
     let driverText = document.createTextNode("DRIVER");
     let lapText = document.createTextNode("LAP TIME");
@@ -38,6 +39,7 @@ function renderSession(data) {
     posCell.classList.add('table-head', 'center-text', 'auto-width', 'td-pos-padding');
     driverCell.classList.add('table-head', 'td-driver-padding');
     bestLapCell.classList.add('table-head', 'center-text');
+    flagCell.classList.add('flag-icon');
     posCell.appendChild(posText);
     driverCell.appendChild(driverText);
     bestLapCell.appendChild(lapText);
@@ -53,17 +55,16 @@ function renderSession(data) {
         let posCell = newRow.insertCell(0);
         posCell.classList.add('center-text', 'auto-width', 'td-pos-padding');
         let flagCell = newRow.insertCell(1)
-        flagCell.classList.add('flag-icon', 'flag-icon-us');
+        flagCell.classList.add('flag-icon');
         let driverCell = newRow.insertCell(2);
         driverCell.classList.add('td-driver-padding');
         let bestLapCell = newRow.insertCell(3);
         bestLapCell.classList.add('round-border', 'center-text');
         let posText = document.createTextNode(pos);
-        let flagSvg = document.createTextNode(getFlag(record["Nation"]));
         let driverText = document.createTextNode(record["DriverName"]);
         let lapText = document.createTextNode(milliSecToTime(record["BestLap"]));
         posCell.appendChild(posText);
-        flagCell.appendChild(flagSvg);
+        flagCell.innerHTML = getFlag(record['Nation']);
         driverCell.appendChild(driverText);
         bestLapCell.appendChild(lapText);
         table.insertRow(-1);

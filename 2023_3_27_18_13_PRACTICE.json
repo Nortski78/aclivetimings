@@ -1,0 +1,719 @@
+{
+	"TrackName": "ks_vallelunga",
+	"TrackConfig": "club_circuit",
+	"Type": "PRACTICE",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Nortski",
+				"Team": "",
+				"Nation": "GBR",
+				"Guid": "76561198090586481",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "09_cup_58",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "Rfosgate",
+				"Team": "",
+				"Nation": "PLA",
+				"Guid": "76561198202570839",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "07_cup_56",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "17_arisoil_72",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "08_cup_57",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "13_cup_70",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "00_official",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "14_cup_87",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "10_cup_60",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "03_cup_24",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "15_speedsource_71",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "09_cup_58",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "06_cup_55",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 12,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "03_cup_24",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 13,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "08_cup_57",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 14,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "17_arisoil_72",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "ks_mazda_mx5_cup",
+			"Skin": "09_cup_58",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 56243,
+			"TotalTime": 601504,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 56305,
+			"TotalTime": 600049,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 5,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 6,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 7,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 8,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 9,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 10,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 11,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 12,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 13,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 14,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 15,
+			"CarModel": "ks_mazda_mx5_cup",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 186064,
+			"LapTime": 80447,
+			"Sectors": [
+				45235,
+				35212
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 204972,
+			"LapTime": 133592,
+			"Sectors": [
+				98312,
+				35280
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 246013,
+			"LapTime": 59951,
+			"Sectors": [
+				25211,
+				34740
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 263348,
+			"LapTime": 58377,
+			"Sectors": [
+				24806,
+				33571
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 304794,
+			"LapTime": 58782,
+			"Sectors": [
+				24595,
+				34187
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 321456,
+			"LapTime": 58090,
+			"Sectors": [
+				25047,
+				33043
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 375668,
+			"LapTime": 70866,
+			"Sectors": [
+				24651,
+				46215
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 378387,
+			"LapTime": 56931,
+			"Sectors": [
+				23955,
+				32976
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 433062,
+			"LapTime": 57402,
+			"Sectors": [
+				24012,
+				33390
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 434651,
+			"LapTime": 56281,
+			"Sectors": [
+				23696,
+				32585
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 489751,
+			"LapTime": 56686,
+			"Sectors": [
+				24047,
+				32639
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 491409,
+			"LapTime": 56759,
+			"Sectors": [
+				23630,
+				33129
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 546053,
+			"LapTime": 56305,
+			"Sectors": [
+				23675,
+				32630
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 547866,
+			"LapTime": 56459,
+			"Sectors": [
+				24006,
+				32453
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Rfosgate",
+			"DriverGuid": "76561198202570839",
+			"CarId": 1,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 602657,
+			"LapTime": 56606,
+			"Sectors": [
+				23765,
+				32841
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Nortski",
+			"DriverGuid": "76561198090586481",
+			"CarId": 0,
+			"CarModel": "ks_mazda_mx5_cup",
+			"Timestamp": 604108,
+			"LapTime": 56243,
+			"Sectors": [
+				23591,
+				32652
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "H",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Rfosgate",
+				"Team": "",
+				"Nation": "PLA",
+				"Guid": "76561198202570839",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 27.270746,
+			"WorldPosition": {
+				"X": 229.78246,
+				"Y": 190.14809,
+				"Z": 126.19553
+			},
+			"RelPosition": {
+				"X": 0.49044156,
+				"Y": 0.059215814,
+				"Z": 1.796289
+			}
+		}
+	]
+}
