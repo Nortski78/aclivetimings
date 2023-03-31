@@ -1,4 +1,5 @@
 import { subscribe } from "./pubsub.js";
+import { getFlag } from "./flags.js";
 
 export function initLeaderboard() {
     console.log("Leaderboard initialised");
@@ -51,14 +52,18 @@ function renderSession(data) {
         let newRow = table.insertRow(-1);
         let posCell = newRow.insertCell(0);
         posCell.classList.add('center-text', 'auto-width', 'td-pos-padding');
-        let driverCell = newRow.insertCell(1);
+        let flagCell = newRow.insertCell(1)
+        flagCell.classList.add('flag-icon', 'flag-icon-us');
+        let driverCell = newRow.insertCell(2);
         driverCell.classList.add('td-driver-padding');
-        let bestLapCell = newRow.insertCell(2);
+        let bestLapCell = newRow.insertCell(3);
         bestLapCell.classList.add('round-border', 'center-text');
         let posText = document.createTextNode(pos);
+        let flagSvg = document.createTextNode(getFlag(record["Nation"]));
         let driverText = document.createTextNode(record["DriverName"]);
         let lapText = document.createTextNode(milliSecToTime(record["BestLap"]));
         posCell.appendChild(posText);
+        flagCell.appendChild(flagSvg);
         driverCell.appendChild(driverText);
         bestLapCell.appendChild(lapText);
         table.insertRow(-1);

@@ -11,8 +11,12 @@ subscribe('filedropped', parseFile);
 function parseFile(data) {
     const lapsJSON = JSON.parse(data);
     let result = lapsJSON["Result"];
+    let cars = lapsJSON["Cars"];
     const filteredResult = result.filter(bestLap => {
         if(bestLap["DriverName"] != "") return true;
+    });
+    const filteredCarsResult = cars.filter(car => {
+        if(car["Guid"] != "") return true;
     });
 
     let lapsData = [];
@@ -21,10 +25,34 @@ function parseFile(data) {
         let data = {
             "DriverName": bestLap["DriverName"],
             "BestLap": bestLap["BestLap"],
-            "DriverGuid": bestLap["DriverGuid"]
+            "DriverGuid": bestLap["DriverGuid"],
+            "Nation": ''
         } 
         lapsData.push(data);
     }
+
+    let carData = [];
+
+    for(const car of filteredCarsResult) {
+        let data = {
+            "Guid": car["Guid"],
+            "Nation": car["nation"],
+        } 
+        carData.push(data);
+    }
+
+    loop1:
+    for(const car of carData) {
+        loop2:
+        for(const driver of lapsData) {
+            if(car["Guid"] === driver["DriverGuid"]) {
+                driver["Nation"] = car["Nation"];
+                break loop2;
+            }
+        }
+    }
+
+    console.log(lapsData);
 
     compareData(lapsData);
 }
