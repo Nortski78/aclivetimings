@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    background: #15151E;
+    border-bottom: red 4px solid;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem 0 1rem 0;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0 0 40px 0;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+table {
+    margin: 10px 0 0 0;
+    color: #fff;
+}
+
+tbody {
+    display: block;
+}
+
+tr {
+    font-size: 1.2rem;
+}
+
+td {
+    width: 100px;    
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 4rem;
+}
+
+#page-content-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   text-align: center;
+}
+
+
+#page-content {
+    font-size: 1.5rem;
+    padding: 0 0 0 1rem;
+}
+
+.drop_zone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#checkered {
+    height: 24px;
+    width: 100%;
+    background-color: #FFF;
+    background-size: 16px 16px;
+    background-position: 0 0, 8px 8px;
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+                    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+}
+
+.green-border {
+    border: solid green 1px;
+}
+
+.bold {
+    font-size: 1.5rem;
+}
+
+.table-head {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+}
+
+.round-border {
+    background: #38383F;
+    border-radius: 20px;
+    padding: 0.7rem 0.75rem;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.auto-width {
+    width: auto;;
+}
+
+.td-pos-padding {
+    padding: 0 30px 0 0px;
+}
+
+.td-driver-padding {
+    padding: 0 100px 0 0px;
+}
+
+table :empty{border:none; height:10px;}
+
+/*table:before {
+    position: absolute;
+    content: '';
+    right: calc(60% + 1rem);
+    height: 100%;
+    width: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #38383F;
+    border-top: none;
+    background: repeating-linear-gradient(-45deg, #15151E 0px, #15151E 4px, #38383F 4px, #38383F 8px);
+  }*/
