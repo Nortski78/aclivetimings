@@ -56,6 +56,11 @@ function renderSession(data) {
         posCell.classList.add('center-text', 'auto-width', 'td-pos-padding');
         let flagCell = newRow.insertCell(1)
         flagCell.classList.add('flag-icon');
+        let flagImg = document.createElement('img');
+        flagImg.setAttribute('src', `./flags/${getFlag(record['Nation'])}`)
+        flagImg.setAttribute('width', '15');
+        flagImg.setAttribute('height', '10');
+        flagCell.appendChild(flagImg);
         let driverCell = newRow.insertCell(2);
         driverCell.classList.add('td-driver-padding');
         let bestLapCell = newRow.insertCell(3);
@@ -64,7 +69,7 @@ function renderSession(data) {
         let driverText = document.createTextNode(record["DriverName"]);
         let lapText = document.createTextNode(milliSecToTime(record["BestLap"]));
         posCell.appendChild(posText);
-        flagCell.innerHTML = getFlag(record['Nation']);
+        //flagCell.innerHTML = `<img ${getFlag(record['Nation'])}`;
         driverCell.appendChild(driverText);
         bestLapCell.appendChild(lapText);
         table.insertRow(-1);
