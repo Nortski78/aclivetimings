@@ -13,11 +13,6 @@ function parseFile(data) {
     let result = lapsJSON["Result"];
     let cars = lapsJSON["Cars"];
 
-    /* for(const car of cars) {
-        console.log(car["Driver"]["Nation"]);
-    } */
-
-
     const filteredResult = result.filter(bestLap => {
         if(bestLap["DriverName"] != "") return true;
     });
@@ -52,7 +47,7 @@ function parseFile(data) {
         for(const driver of lapsData) {
             if(car["Guid"] === driver["DriverGuid"]) {
                 driver["Nation"] = car["Nation"];
-                //break loop2;
+                break loop2;
             }
         }
     }
@@ -62,7 +57,7 @@ function parseFile(data) {
 
 function compareData(submittedData) {
     let updatedLapData = [];
-    
+    let hotLap = null;
 
     fetch('bestlapsdata.json')
     .then(res => res.json())
@@ -98,7 +93,14 @@ function compareData(submittedData) {
             }
             return 0;
         });
-        
+
+        hotLap = sortedLapData[0]["BestLap"];
+
+        for(const driver of sortedLapData) {
+            driver["Gap"] = driver["BestLap"] - hotLap;
+        }
+
+        console.log(sortedLapData);
         saveToLocalFile(sortedLapData);
     });
 }

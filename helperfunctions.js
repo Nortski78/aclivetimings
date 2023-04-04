@@ -5,3 +5,7 @@ export function search(nameKey, myArray){
         }
     }
 }
+
+export function lapTimeToMilliseconds(lapTime) {
+    
+}

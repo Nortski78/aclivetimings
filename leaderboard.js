@@ -32,22 +32,24 @@ function renderSession(data) {
     let flagCell = newRow.insertCell(1);
     let driverCell = newRow.insertCell(2);
     let bestLapCell = newRow.insertCell(3);
+    let gapCell = newRow.insertCell(4);
     let posText = document.createTextNode("POS");
     let driverText = document.createTextNode("DRIVER");
     let lapText = document.createTextNode("LAP TIME");
+    let gapText = document.createTextNode("GAP");
    
     posCell.classList.add('table-head', 'center-text', 'auto-width', 'td-pos-padding');
     driverCell.classList.add('table-head', 'td-driver-padding');
     bestLapCell.classList.add('table-head', 'center-text');
     flagCell.classList.add('flag-icon');
+    gapCell.classList.add('table-head', 'td-gap-padding');
     posCell.appendChild(posText);
     driverCell.appendChild(driverText);
     bestLapCell.appendChild(lapText);
+    gapCell.appendChild(gapText);
 
     table.insertRow(-1);
     table.insertRow(-1);
-
-    //newRow.classList.add('bold');
 
     let pos = 1;
     for(const record of data) {
@@ -65,13 +67,16 @@ function renderSession(data) {
         driverCell.classList.add('td-driver-padding');
         let bestLapCell = newRow.insertCell(3);
         bestLapCell.classList.add('round-border', 'center-text');
+        let gapCell = newRow.insertCell(4);
+        let gapText = document.createTextNode(milliSecToTime(record["Gap"]));
         let posText = document.createTextNode(pos);
         let driverText = document.createTextNode(record["DriverName"]);
         let lapText = document.createTextNode(milliSecToTime(record["BestLap"]));
+        gapCell.classList.add('td-gap-padding');
         posCell.appendChild(posText);
-        //flagCell.innerHTML = `<img ${getFlag(record['Nation'])}`;
         driverCell.appendChild(driverText);
         bestLapCell.appendChild(lapText);
+        gapCell.appendChild(gapText);
         table.insertRow(-1);
 
         pos += 1;
@@ -79,6 +84,8 @@ function renderSession(data) {
 }
 
 function milliSecToTime(milliseconds) {
+
+    if(milliseconds === 0) return '';
 
     let a = Math.floor(milliseconds/60000);
     let y = milliseconds % 60000;
